@@ -28,6 +28,16 @@ jobs:
           - J018
           - J019
           - J020
+          - J021
+          - J022
+          - J023
+          - J024
+          - J025
+          - J026
+          - J027
+          - J028
+          - J029
+          - J030
     steps:
       - name: Set up Python 3.7
         uses: actions/setup-python@v1
