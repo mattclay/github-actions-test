@@ -118,21 +118,6 @@ jobs:
           - J108
           - J109
           - J110
-          - J111
-          - J112
-          - J113
-          - J114
-          - J115
-          - J116
-          - J117
-          - J118
-          - J119
-          - J120
-          - J121
-          - J122
-          - J123
-          - J124
-          - J125
     steps:
       - name: Set up Python 3.7
         uses: actions/setup-python@v1
