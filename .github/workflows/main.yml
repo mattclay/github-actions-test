@@ -109,15 +109,6 @@ jobs:
           - J099
           - J100
           - J101
-          - J102
-          - J103
-          - J104
-          - J105
-          - J106
-          - J107
-          - J108
-          - J109
-          - J110
     steps:
       - name: Set up Python 3.7
         uses: actions/setup-python@v1
