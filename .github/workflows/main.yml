@@ -9,8 +9,6 @@ jobs:
       matrix:
         job:
           - J001
-          - J002
-          - J003
     steps:
       - name: Set up Python 3.7
         uses: actions/setup-python@v1
