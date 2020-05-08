@@ -16,5 +16,7 @@ jobs:
           python-version: 3.7
       - name: Check out code
         uses: actions/checkout@v1
+      - name: Show environment
+        run: env
       - name: Run test job ${{ matrix.job }}
         run: ./test.py ${{ matrix.job }}
