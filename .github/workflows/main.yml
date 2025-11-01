@@ -10,6 +10,9 @@ jobs:
         job:
           - J001
           - J002
+        other:
+          - A
+          - B
     steps:
       - name: Set up Python 3.14
         uses: actions/setup-python@v6
@@ -17,5 +20,5 @@ jobs:
           python-version: 3.14
       - name: Check out code
         uses: actions/checkout@v5
-      - name: Run test job ${{ matrix.job }}
-        run: ./test.py ${{ matrix.job }}
+      - name: Run test job ${{ matrix.job }} ${{ matrix.other }}
+        run: ./test.py ${{ matrix.job }} ${{ matrix.other }}
