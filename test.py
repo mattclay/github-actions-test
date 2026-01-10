@@ -3,6 +3,7 @@
 import os
 import sys
 import json
+import time
 
 job = sys.argv[1]
 
@@ -22,3 +23,11 @@ with open(event_path, 'r') as event_file:
 print()
 
 print(json.dumps(event, indent=4, sort_keys=True))
+
+print()
+
+for i in range(100):
+    print(i)
+    time.sleep(1)
+
+print("Done")
