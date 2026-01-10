@@ -27,7 +27,7 @@ print(json.dumps(event, indent=4, sort_keys=True))
 print()
 
 for i in range(100):
-    print(i)
+    print(i, flush=True)
     time.sleep(1)
 
 print("Done")
